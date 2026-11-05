@@ -1,0 +1,13 @@
+[connect] 192.0.2.32:2381
+>>> ACC
+<<< ACC
+
+<<< Password: ? 
+<<< *****
+
+CHARLIE RELAY  Date: 05/19/26    Time: 14:15:36.012
+CHARLIE RELAY
+
+Level 1
+
+=>

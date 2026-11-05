@@ -1,0 +1,27 @@
+ANONYMIZED CAPTURE: SEL-751 live output 2026-09-25; site name and serial replaced
+STA
+
+SEL-751                                  Date: 09/25/2026   Time: 17:06:37.810
+LAB SITE                                 Time Source: Internal
+
+Serial Num = 0000000000     FID = SEL-751-R400-V4-Z100100-D20241031
+CID = 6490                  PART NUM = 751002B0X0X0X851D20
+
+SELF TESTS (W=Warn)
+  FPGA  GPSB  HMI   RAM   ROM   CR_RAM  NON_VOL  CLOCK  +0.675V  +0.675VD
+  OK    OK    OK    OK    OK    OK      OK       OK     0.68     0.68
+
+  +1.0V  +1.1V  +1.35V  +1.8V  +3.3V  +3.75V  +5.0V  -1.25V  -5.0V  BATT
+  1.00   1.09   1.34    1.79   3.32   3.73    4.92   -1.25   -4.98  2.97
+
+Option Cards
+  CARD_C  CARD_D  CARD_E  CARD_Z
+  OK      OK      OK      OK
+
+Offsets
+   IA    IB    IC    IN    VA    VB    VC
+  0     0     0     0     0     0     0
+
+  Relay Enabled
+
+=>

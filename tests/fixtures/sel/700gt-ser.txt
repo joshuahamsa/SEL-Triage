@@ -1,0 +1,27 @@
+ANONYMIZED CAPTURE: live SEL-700GT SER output, trimmed to 16 rows (R302 firmware, 2026-09-29); site name and serial replaced.
+SER
+
+SEL-700GT                                Date: 09/29/2026   Time: 13:23:44.443
+LAB SITE                                 Time Source: Internal
+
+Serial No = 0000000000      FID = SEL-700G-R302-V1-Z008004-D20240329
+CID = 04E2
+
+ #       DATE         TIME                ELEMENT                STATE
+1000  09/13/2026  18:45:32.426   3PWRX1P                    Deasserted
+999   09/13/2026  18:45:39.477   3PWRX1P                    Asserted
+998   09/13/2026  18:45:45.571   3PWRX1P                    Deasserted
+997   09/13/2026  18:45:52.056   3PWRX1P                    Asserted
+996   09/13/2026  18:45:58.038   3PWRX1P                    Deasserted
+995   09/13/2026  18:46:05.039   3PWRX1P                    Asserted
+574   09/21/2026  13:06:51.696   SALARM                     Asserted
+573   09/21/2026  13:06:52.694   SALARM                     Deasserted
+572   09/21/2026  13:29:59.528   SALARM                     Asserted
+571   09/21/2026  13:30:00.529   SALARM                     Deasserted
+6     09/26/2026  13:51:14.753   3PWRX1P                    Deasserted
+5     09/26/2026  13:51:33.846   3PWRX1P                    Asserted
+4     09/26/2026  13:51:50.594   3PWRX1P                    Deasserted
+3     09/26/2026  13:52:15.525   3PWRX1P                    Asserted
+2     09/26/2026  13:52:39.190   3PWRX1P                    Deasserted
+1     09/26/2026  13:52:58.571   3PWRX1P                    Asserted
+=>

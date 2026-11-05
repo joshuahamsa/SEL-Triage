@@ -1,0 +1,21 @@
+ANONYMIZED CAPTURE: SEL-851 live output 2026-09-25; site name and serial replaced
+STA
+
+SEL-851                                  Date: 09/25/2026   Time: 15:33:42.576
+LAB SITE                                 Time Source: Internal
+
+
+Serial Num = 0000000000      
+FID = SEL-851-R100-V1-Z001001-D20220513         CID = 8947
+PART NUM = 085100010010030 
+
+SELF TESTS (W=Warn)
+  RAM     ROM     CR_RAM  NON_VOL HMI     CLOCK   CLK_BAT AF      PS      ETH
+  OK      OK      OK      OK      OK      OK      OK      OK      OK      OK  
+
+  FPGA    DAQ
+  OK      OK  
+
+  Relay Enabled
+
+=>

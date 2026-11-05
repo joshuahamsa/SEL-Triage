@@ -1,0 +1,30 @@
+ANONYMIZED CAPTURE: SEL-700GT live output 2026-09-25; site name and serial replaced
+BRE
+
+SEL-700GT                                Date: 09/25/2026   Time: 16:23:33.892
+LAB SITE                                 Time Source: Internal
+
+Breaker X Monitor Data
+
+             
+Trip Counters
+
+Rly Trips (counts)   13234
+Ext Trips (counts)       0
+
+
+Cumulative Interrupted Currents
+
+                        IA     IB     IC
+Rly Trip Current (kA)  321.5  368.5  369.3
+Ext Trip Current (kA)    0.0    0.0    0.0
+
+
+Breaker Contact Wear
+
+           A    B    C
+Wear (%)  100  100  100
+
+LAST RESET = 10/11/2024 10:05:18
+
+=>

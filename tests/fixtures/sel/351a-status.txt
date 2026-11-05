@@ -1,0 +1,29 @@
+ANONYMIZED CAPTURE: SEL-351A live output 2026-09-25; relay and site IDs replaced
+STA
+
+LAB RELAY                           Date: 09/25/26    Time: 21:21:44.750
+LAB SITE       
+
+FID=SEL-351A-R518-V1-Z107106-D20210917       CID=CDC0
+
+SELF TESTS
+
+W=Warn    F=Fail
+
+      IA      IB      IC      IN      VA      VB      VC      VS      MOF
+OS    0       0       0       0       0       0       0      -0       0      
+OSH  -1       0      -0      -0      
+
+      15V_PS  5V_REG  3.3V_REG
+PS    14.86   5.00    3.30   
+
+      RAM     ROM     FPGA    EEPROM  FLASH   A/D     USB_BRD COM_BRD 
+      OK      OK      OK      OK      OK      OK      OK      OK      
+
+      TEMP    RTC     HMI
+      35.8    OK      OK      
+
+
+ Relay Enabled
+
+=>

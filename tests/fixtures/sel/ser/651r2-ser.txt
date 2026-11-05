@@ -1,0 +1,29 @@
+ANONYMIZED CAPTURE: live SEL-651R2 SER output, trimmed to 18 of 1024 rows (SEL-651R-2-R409-V0-Z009003-D20200205); site, relay names, serial and CID replaced.
+SER
+
+LAB SITE                           Date: 10/12/2026  Time: 19:54:22.526
+LAB RELAY                          Time Source: internal
+
+FID=SEL-651R-2-R409-V0-Z009003-D20200205   CID=0000
+
+ #     Date        Time           Element         State
+ 1024  01/16/2024  08:16:47.588   51G1            Asserted
+ 1023  01/16/2024  08:16:47.593   51P             Asserted
+ 1022  01/16/2024  08:16:47.597   52A3P           Asserted
+ 1021  01/16/2024  08:16:47.597   CLOSE3P         Deasserted
+ 1020  01/16/2024  08:16:47.609   51P             Deasserted
+ 1019  01/16/2024  08:16:47.680   51G1            Deasserted
+ 1018  01/16/2024  08:16:48.597   79LO3P          Deasserted
+ 1017  01/16/2024  08:16:48.597   79RS3P          Asserted
+  388  09/29/2025  10:40:23.398   Going to sleep
+  387  03/10/2026  11:00:19.418   Relay restarted
+  357  03/17/2026  02:20:22.110   Going to sleep
+  356  03/17/2026  08:29:36.388   Relay restarted
+   42  07/21/2026  10:55:28.941   Going to sleep
+   41  07/23/2026  14:40:59.426   Relay restarted
+    4  07/24/2026  12:10:35.110   SH43P           Deasserted
+    3  07/24/2026  12:10:35.110   SH03P           Asserted
+    2  08/06/2026  08:22:07.049   51P             Asserted
+    1  08/06/2026  08:22:07.065   51P             Deasserted
+
+=>

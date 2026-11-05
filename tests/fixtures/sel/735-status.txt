@@ -1,0 +1,27 @@
+ANONYMIZED CAPTURE: SEL-735 live output 2026-09-25; site name and serial replaced
+STA
+
+
+SEL-735                           Date: 09/25/26    Time: 12:57:01.119
+LAB SITE                                            Time Source: int
+
+FID=SEL-735-R207-V3-Z102100-D20230203       CID=844C
+S/N: 0000000000
+
+SELF TESTS
+
+W=Warn    F=Fail
+
+       IA      IB      IC      IN      VA      VB      VC      VN      
+OS     0       0       0       1       0       0       0       0      
+
+       Batt    TEMP    
+        2.78W   35.0   
+
+       RAM      ROM      CR_RAM   NONVOL   MISC_BRD PS       
+       OK       OK       OK       OK       OK       OK       
+
+ Meter Enabled
+
+
+=>

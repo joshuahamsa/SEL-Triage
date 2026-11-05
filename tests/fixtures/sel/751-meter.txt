@@ -1,0 +1,37 @@
+ANONYMIZED CAPTURE: SEL-751 live output 2026-09-25; site name and serial replaced
+MET
+
+SEL-751                                  Date: 09/25/2026   Time: 17:06:38.382
+LAB SITE                                 Time Source: Internal
+
+                 IA         IB         IC         IN         IG         I1
+Mag (A pri.)      309.8      311.4      312.3      0.000        7.7      311.2
+Angle (deg)      -179.2      -58.1       60.8      0.0         27.5     -178.8
+
+Ave Curr Mag     (A pri.)      311.2
+Neg-Seq Curr 3I2 (A pri.)        3.4
+Current Imb (%)                  0.0
+
+                 VAB        VBC        VCA        V1
+Mag (V pri.)      502.6      498.9      497.4      288.5
+Angle (deg)       -29.7       90.7     -149.9        0.4
+
+                 VA         VB         VC         VG
+Mag (V pri.)      289.0      289.7      286.8        0.3
+Angle (deg)         0.0      120.6     -119.5      -56.0
+
+Avg Phase (V pri.)             288
+Neg-Seq Volt 3V2 (V pri.)        5.4
+Voltage Imb (%)                  0.6
+
+                           A              B              C             3P
+Real Pwr (kW)               -90            -90            -90           -269
+Reactive Pwr (kVAR)           1              2              1              4
+Apparent Pwr (kVA)           90             90             90            269
+Pwr Factor                   -1.00          -1.00          -1.00          -1.00
+                            LEAD           LEAD           LEAD           LEAD
+
+                FREQ
+Frequency (Hz)  60.01
+
+=>

@@ -1,0 +1,3 @@
+IP: 192.0.2.42
+Port: 2381
+Error: TimeoutError: timed out

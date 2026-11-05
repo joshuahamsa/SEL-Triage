@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+.DS_Store
+build/
+dist/
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Local configuration and inventory: real hosts, ports and credential references.
+config.local.json
+devices.json
+.env
+.env.*
+
+# Terms that must never appear in the public tree (read by tests/test_repo_public_data.py).
+.denylist.local
+
+# Device output: evidence, captures, archives and indexes stay on your machine.
+evidence/
+live-evidence/
+out/
+cache/
+*.sqlite
+*.sqlite3
+*.db
+*.rdb
+*.log
+
+# Key material.
+*.pem
+*.key
+*.p12

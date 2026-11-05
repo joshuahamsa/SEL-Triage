@@ -1,0 +1,13 @@
+ANONYMIZED CAPTURE: SEL-851 live output 2026-09-25; site name and serial replaced
+TAR
+
+EnaLED.Sta                        1
+TripLED.Sta                       0
+*                                 0
+*                                 0
+*                                 0
+*                                 0
+*                                 0
+*                                 0
+
+=>

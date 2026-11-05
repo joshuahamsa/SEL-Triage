@@ -1,0 +1,40 @@
+EVE 1
+
+TEST-STATION                      Date: 07/15/2026  Time: 09:33:57.200
+TEST-DEVICE                       Time Source: internal
+
+FID=SEL-TEST-R100   CID=1
+Event Number = 42
+
+    Currents (Amps Pri)             Voltages (kV Pri)
+    IA     IB     IC     IG    VAY    VBY    VCY  Freq  STATE
+[1]
+     0      0      0      0    1.0   -0.5   -0.5 60.00  .
+  1000      0      0   1000    0.0   -0.9    0.9 60.00  .
+     0      0      0      0   -1.0    0.5    0.5 60.00  .
+ -1000      0      0  -1000    0.0    0.9   -0.9 60.00  .
+[2]
+     0      0      0      0    1.0   -0.5   -0.5 60.00> T
+     0      0      0      0    0.0   -0.9    0.9 60.00  T
+ -1000      0      0  -1000   -1.0    0.5    0.5 60.00  .
+     0      0      0      0    0.0    0.9   -0.9 60.00  .
+
+Protection and Control Elements
+T
+R
+I
+P
+[1]
+.
+.
+.
+.
+[2]
+T
+T
+.
+.
+
+Event: AG T  Location: TEST  Shot: 0  Frequency: 60.00
+Targets: 1 TEST
+Currents (A Pri), ABCGQ: 1000 0 0 1000 1000

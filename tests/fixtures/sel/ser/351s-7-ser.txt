@@ -1,0 +1,23 @@
+ANONYMIZED CAPTURE: live SEL-351S-7 SER output, trimmed to 12 of 1024 rows (SEL-351S-7-R518-V1-Z107106-D20210917); site, relay names, serial and CID replaced.
+SER
+
+LAB SITE                          Date: 10/12/26    Time: 20:10:03.609
+LAB RELAY
+
+FID=SEL-351S-7-R518-V1-Z107106-D20210917       CID=0000
+
+#     Date      Time           Element            State
+1024  02/28/26  08:13:33.610   TRIP               Deasserted
+1023  02/28/26  08:13:33.614   TRIP               Asserted
+1022  02/28/26  08:13:33.910   TRIP               Deasserted
+1021  02/28/26  08:13:33.956   TRIP               Asserted
+1020  02/28/26  08:13:34.335   TRIP               Deasserted
+1019  02/28/26  08:13:34.372   TRIP               Asserted
+1018  02/28/26  08:13:35.147   TRIP               Deasserted
+1017  02/28/26  08:13:35.405   TRIP               Asserted
+4     07/21/26  20:22:37.344   SH1                Deasserted
+3     07/21/26  20:22:37.344   SH0                Asserted
+2     07/21/26  20:22:37.344   79CY               Deasserted
+1     07/21/26  20:22:37.344   79RS               Asserted
+
+=>

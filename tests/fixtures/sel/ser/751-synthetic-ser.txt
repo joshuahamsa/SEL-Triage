@@ -1,0 +1,24 @@
+SYNTHETIC CAPTURE: SEL-751 SER in the layout of a live SEL-751-R300-V1-Z008004-D20200603 read (2026-10-13); every value is made up.
+SER
+
+LAB SITE                                  Date: 10/13/2026   Time: 09:12:03.118
+LAB RELAY                                Time Source: Internal
+
+Serial No = 0000000000      FID = SEL-751-R300-V1-Z008004-D20200603
+CID = 0000
+
+ #       DATE         TIME               ELEMENT                STATE
+12    09/28/2026  07:02:11.204   Relay Powered Up
+11    09/28/2026  07:02:11.204   IN101                     Asserted
+10    09/28/2026  07:02:11.206   52A                       Asserted
+9     09/30/2026  13:45:20.017   Relay Settings Changed
+8     10/02/2026  11:18:44.530   SALARM                    Asserted
+7     10/02/2026  11:18:45.530   SALARM                    Deasserted
+6     10/05/2026  16:34:40.402   FP_OPEN                   PICKUP
+5     10/05/2026  16:34:40.552   FP_OPEN                   DROPOUT
+4     10/05/2026  16:34:40.611   TRIP                      Asserted
+3     10/05/2026  16:34:40.623   IN101                     Deasserted
+2     10/05/2026  16:34:40.625   TRIP                      Deasserted
+1     10/05/2026  16:34:40.625   52A                       Deasserted
+
+=>

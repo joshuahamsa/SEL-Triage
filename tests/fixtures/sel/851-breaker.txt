@@ -1,0 +1,5 @@
+ANONYMIZED CAPTURE: SEL-851 live output 2026-09-25; site name and serial replaced
+BRE
+"BRE" unknown.  Enter "HELP" for more information.
+
+=>

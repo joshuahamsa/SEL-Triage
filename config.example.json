@@ -1,0 +1,89 @@
+{
+  "secretProviders": {
+    "default": {
+      "type": "macos-keychain",
+      "service": "sel-triage"
+    }
+  },
+  "devices": [
+    {
+      "name": "Example Site/Relay",
+      "kind": "sel",
+      "modelHint": "SEL-651R2",
+      "host": "192.0.2.10",
+      "port": 2381,
+      "credentialRef": "sel/example-651/access1",
+      "timeoutSeconds": 10
+    },
+    {
+      "name": "Example Site/Meter",
+      "kind": "sel",
+      "modelHint": "SEL-735",
+      "host": "192.0.2.10",
+      "port": 2383,
+      "credentialRef": "sel/example-735/access1",
+      "timeoutSeconds": 10
+    },
+    {
+      "name": "Example Site/RTAC",
+      "kind": "rtac",
+      "modelHint": "SEL-3505",
+      "host": "192.0.2.20",
+      "port": 443,
+      "credentialRef": "rtac/Example Site",
+      "timeoutSeconds": 15
+    }
+  ],
+  "diagnosticThresholds": {
+    "clock_drift_seconds": 300,
+    "phase_imbalance_percent": 10,
+    "breaker_wear_percent": 80,
+    "breaker_operation_count": 5000,
+    "event_burst_count": 5,
+    "event_burst_window_seconds": 600,
+    "event_burst_recent_days": 30,
+    "phase_sequence_ratio": 2,
+    "recent_trip_days": 30,
+    "sel_capture_max_age_days": 180,
+    "sel_nominal_frequency_hz": 60,
+    "byModel": {
+      "SEL-651R2": {
+        "breaker_operation_count": 10000
+      }
+    },
+    "bySite": {
+      "Example Site": {
+        "event_burst_count": 10
+      }
+    },
+    "byDevice": {
+      "Example Site/Relay": {
+        "breaker_wear_percent": 90
+      }
+    }
+  },
+  "selSettingsChecks": {
+    "disabledRules": [],
+    "meterModels": ["SEL-735"]
+  },
+  "selSettings": {
+    "capturesDir": null,
+    "indexPath": null,
+    "maxSitesParallel": 4,
+    "unreachableStopAfter": 3,
+    "readTimeoutSeconds": 60
+  },
+  "selEventArchive": {
+    "store": "local",
+    "localDir": null,
+    "bucket": null,
+    "prefix": "sel_events",
+    "profile": null,
+    "eventsPerRun": 10,
+    "eventReportFamilies": ["sel651", "sel700g"],
+    "staleNotifyDays": 5,
+    "unreachableStopAfter": 5,
+    "maxSitesParallel": 8,
+    "readTimeoutSeconds": 60
+  }
+}

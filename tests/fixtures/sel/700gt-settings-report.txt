@@ -1,0 +1,69 @@
+ANONYMIZED CAPTURE: live SEL-700GT SHO R output (R302 firmware, 2026-09-29); site name and serial replaced.
+SHO R
+
+Report Settings
+
+SER Chatter Criteria
+ESERDEL  := N
+
+SER Trigger Lists
+SERn = Up to 24 Relay-Word elements separated by spaces or commas.
+Use NA to disable setting.
+
+SER1     := IN101 IN102
+SER2     := 3PWRX1P
+SER3     := NA
+SER4     := SALARM
+
+Relay-Word Bit Aliases
+ALIASn= 'RW Bit'(space)'Alias'(space)'Asserted Text'(space)'Deasserted Text'.
+Alias, Asserted, and Deasserted text strings can be up to 15 characters long.
+Use NA to disable setting.
+
+EALIAS   := 4
+ALIAS1   := PB01 FP_LOCK PICKUP DROPOUT
+ALIAS2   := PB02 FP_BRKR_SELECT PICKUP DROPOUT
+ALIAS3   := PB03 FP_CLOSE PICKUP DROPOUT
+ALIAS4   := PB04 FP_TRIP PICKUP DROPOUT
+
+Event Report Set
+ER       := F_TRIG 3PWRX1P
+LER      := 64            PRE      := 8
+
+Fast Msg R Set
+FMRnNAM = Any valid string.
+FMRn = Up to 24 Analog Quantities separated by spaces or commas.
+Use NA to disable setting.
+
+FMR1NAM  := FMR1
+FMR1     := NA
+FMR2NAM  := FMR2
+FMR2     := NA
+FMR3NAM  := FMR3
+FMR3     := NA
+FMR4NAM  := FMR4
+FMR4     := NA
+
+Fast Msg RA Set
+I=Integer, F=Float, L=Long
+RA01TYPE := I             RA02TYPE := I             RA03TYPE := I
+RA04TYPE := I             RA05TYPE := I             RA06TYPE := I
+RA07TYPE := I             RA08TYPE := I             RA09TYPE := I
+RA10TYPE := I             RA11TYPE := I             RA12TYPE := I
+RA13TYPE := I             RA14TYPE := I             RA15TYPE := I
+RA16TYPE := I             RA17TYPE := I             RA18TYPE := I
+RA19TYPE := I             RA20TYPE := I             RA21TYPE := I
+RA22TYPE := I             RA23TYPE := I             RA24TYPE := I
+RA25TYPE := I             RA26TYPE := I             RA27TYPE := I
+RA28TYPE := I             RA29TYPE := I             RA30TYPE := I
+RA31TYPE := I             RA32TYPE := I
+
+Auto Sync Report
+GSRTRG   := CLOSEX AND ( 25C OR 25AX1 OR 25AX2 )
+GSRR     := 0.25          PRESYNC  := 4790
+
+Load Profile Set
+LDLIST   := NA
+LDAR     := 15
+
+=>

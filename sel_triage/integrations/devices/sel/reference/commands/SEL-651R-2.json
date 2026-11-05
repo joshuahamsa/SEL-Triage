@@ -1,0 +1,2733 @@
+{
+  "model": "SEL-651R-2",
+  "manual": "651R-2_IM_20240725.pdf",
+  "manual_date": "2024-07-25",
+  "source_url": "https://selinc.com/products/651R/docs/",
+  "latest_manual_download_url": "https://selinc.com/api/download/100136/?lang=en-us",
+  "source": "SEL instruction manual; selinc.com instruction-manual downloads require an SEL login",
+  "covers": null,
+  "command_table": "Table 10.19 ASCII Command Summary",
+  "command_pages": [
+    688,
+    694
+  ],
+  "firmware_pages": [
+    842,
+    853
+  ],
+  "access_level_hierarchy": [
+    "0",
+    "1",
+    "B",
+    "2",
+    "C"
+  ],
+  "note": null,
+  "commands": [
+    {
+      "command": "2AC",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "session",
+      "page": 688
+    },
+    {
+      "command": "ACC",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "session",
+      "page": 688
+    },
+    {
+      "command": "BAC",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "session",
+      "page": 688
+    },
+    {
+      "command": "BNA",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "BRE",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "BRE R",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 688
+    },
+    {
+      "command": "BRE W",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 688
+    },
+    {
+      "command": "BTT",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "BTT NOW",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 688
+    },
+    {
+      "command": "CAL",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "session",
+      "page": 688
+    },
+    {
+      "command": "CAS",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "CEV n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "CEV HIF n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "CHI",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 688
+    },
+    {
+      "command": "CHI HIF",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "CLO, CLO A, CLO B, CLO C",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "COM c",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "COM c row1",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "COM c row1 row2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "COM c date1",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "COM c date1 date2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "COM c C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "COM c L …",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "CON n",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "COP m n",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "COP D m n",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "COU k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "CST",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "CSU n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "CSU HIF n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "DAT",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "DAT date",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "DNA X or T",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "ETH",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "ETH C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 689
+    },
+    {
+      "command": "EVE n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "EVE n A",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "EVE n C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "EVE n D",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "EVE n L",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "EVE n Ly",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 689
+    },
+    {
+      "command": "EVE n M",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "EVE n P",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "EVE n R",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "EVE n Sx",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "EVE n V",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "EXI",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "session",
+      "page": 690
+    },
+    {
+      "command": "FIL DIR",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "FIL READ filename",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "FIL SHOW filename",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "FIL WRITE filename",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "GOO",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GOO k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GOO S",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GOO S n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GOO S n C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "GOO S n L",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GOO S ALL",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GOO S ALL C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "GOO S ALL L",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GRO",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "GRO n",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "HIS",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIS n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIS C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "HIS E",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIS HIF",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIS HIF n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIS HIF C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "HIZ",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIZ n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "HIZ C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "ID",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "read",
+      "page": 690
+    },
+    {
+      "command": "INI HIF",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 690
+    },
+    {
+      "command": "L_D",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "LDP",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LDP n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LDP row1 row2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LDP date1",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LDP date1 date2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LDP C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "LDP D",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LOG HIF",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LOG HIF n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "LOG HIF C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "LOO c t",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "LOO c t DATA",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "LOO c R",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MAC",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MCS A",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MCS C",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MCS M",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MCS R",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MCS S",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MET k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET D",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET E",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET H",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET HIF k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET M",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET PM k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET PM time",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET PM HIS",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET RD",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MET RE",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MET RM",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 691
+    },
+    {
+      "command": "MET RMS",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 691
+    },
+    {
+      "command": "MET RP",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "OPE, OPE A, OPE B, OPE C",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "PAR",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "PAS 1",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "PAS B",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "PAS 2",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "PIN addr",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "other",
+      "page": 692
+    },
+    {
+      "command": "PIN addr iInterval",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "other",
+      "page": 692
+    },
+    {
+      "command": "PIN addr tTimeout",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "other",
+      "page": 692
+    },
+    {
+      "command": "PIN addr iInteval tTimeout",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "other",
+      "page": 692
+    },
+    {
+      "command": "PUL n s",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "QUI",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "session",
+      "page": 692
+    },
+    {
+      "command": "R_S",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SER",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SER n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SER row1 row2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SER date1",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SER date1 date2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SER C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET n",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET D n",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET F",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET G",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET L n",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET M",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET P p",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET R",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET … name",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SET … TERSE",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 692
+    },
+    {
+      "command": "SHO n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SHO D n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 692
+    },
+    {
+      "command": "SHO F",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SHO G",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SHO L n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SHO M",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SHO P p",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SHO R",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SHO … name",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SLR",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SLR n",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SLR date1",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SLR date1 date2",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SLR C",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "SLR R",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "SNS",
+      "min_access_level": "0",
+      "access_levels": [
+        "0",
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SSI",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SSI n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SSI row1 row2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SSI date1",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SSI date1 date2",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SSI C",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "SSI R",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "SSI T",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "STA k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "STA C",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "STA S",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "SUM HIF n",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TAR",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TAR n k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TAR name k",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TAR LIST",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TAR R",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 693
+    },
+    {
+      "command": "TAR ROW …",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TDP",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 693
+    },
+    {
+      "command": "TDP ON",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TDP ON addr",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TDP ON addr port",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TDP OFF",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TDP RESET",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TES DB",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "TES DB A name value",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TES DB A row_x value",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TES DB D name value",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TES DB name OFF",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TES DB OFF",
+      "min_access_level": "B",
+      "access_levels": [
+        "B",
+        "2"
+      ],
+      "prompt": "==>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TIM",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "TIM hh:mm",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TIM hh:mm:ss",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TIM Q",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "TIM DST",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "TRI",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TRI time",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TRI HIF",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "write",
+      "page": 694
+    },
+    {
+      "command": "TRI STA",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "VEC D",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "VEC E",
+      "min_access_level": "2",
+      "access_levels": [
+        "2"
+      ],
+      "prompt": "=>>",
+      "kind": "read",
+      "page": 694
+    },
+    {
+      "command": "VER",
+      "min_access_level": "1",
+      "access_levels": [
+        "1",
+        "B",
+        "2"
+      ],
+      "prompt": "=>",
+      "kind": "read",
+      "page": 694
+    }
+  ],
+  "firmware": [
+    {
+      "revision": "R502",
+      "fid": "SEL-651R-2-R502-V0-Z102100-D20240618",
+      "date": "2024-06-18",
+      "manual_date_code": "20240618",
+      "page": 842,
+      "command_changes": [],
+      "n_change_bullets": 6
+    },
+    {
+      "revision": "R501",
+      "fid": "SEL-651R-2-R501-V1-Z101100-D20240516",
+      "date": "2024-05-16",
+      "manual_date_code": "20240516",
+      "page": 842,
+      "command_changes": [],
+      "n_change_bullets": 10
+    },
+    {
+      "revision": "R501",
+      "fid": "SEL-651R-2-R501-V0-Z101100-D20240131",
+      "date": "2024-01-31",
+      "manual_date_code": "20240201",
+      "page": 842,
+      "command_changes": [],
+      "n_change_bullets": 4
+    },
+    {
+      "revision": "R500",
+      "fid": "SEL-651R-2-R500-V1-Z100100-D20240516",
+      "date": "2024-05-16",
+      "manual_date_code": "20240516",
+      "page": 843,
+      "command_changes": [],
+      "n_change_bullets": 10
+    },
+    {
+      "revision": "R500",
+      "fid": "SEL-651R-2-R500-V0-Z100100-D20230404",
+      "date": "2023-04-04",
+      "manual_date_code": "20230404",
+      "page": 843,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R413",
+      "fid": "SEL-651R-2-R413-V1-Z013003-D20240516",
+      "date": "2024-05-16",
+      "manual_date_code": "20240516",
+      "page": 843,
+      "command_changes": [],
+      "n_change_bullets": 5
+    },
+    {
+      "revision": "R413",
+      "fid": "SEL-651R-2-R413-V0-Z013003-D20230130",
+      "date": "2023-01-30",
+      "manual_date_code": "20230130",
+      "page": 844,
+      "command_changes": [],
+      "n_change_bullets": 8
+    },
+    {
+      "revision": "R412",
+      "fid": "SEL-651R-2-R412-V1-Z012003-D20240516",
+      "date": "2024-05-16",
+      "manual_date_code": "20240516",
+      "page": 844,
+      "command_changes": [],
+      "n_change_bullets": 9
+    },
+    {
+      "revision": "R412",
+      "fid": "SEL-651R-2-R412-V0-Z012003-D20220629",
+      "date": "2022-06-29",
+      "manual_date_code": "20220629",
+      "page": 844,
+      "command_changes": [],
+      "n_change_bullets": 1
+    },
+    {
+      "revision": "R411",
+      "fid": "SEL-651R-2-R411-V2-Z011003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 845,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R411",
+      "fid": "SEL-651R-2-R411-V1-Z011003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 845,
+      "command_changes": [],
+      "n_change_bullets": 3
+    },
+    {
+      "revision": "R411",
+      "fid": "SEL-651R-2-R411-V0-Z011003-D20210317",
+      "date": "2021-03-17",
+      "manual_date_code": "20210317",
+      "page": 845,
+      "command_changes": [],
+      "n_change_bullets": 10
+    },
+    {
+      "revision": "R410",
+      "fid": "SEL-651R-2-R410-V2-Z010003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 846,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R410",
+      "fid": "SEL-651R-2-R410-V1-Z010003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 846,
+      "command_changes": [],
+      "n_change_bullets": 3
+    },
+    {
+      "revision": "R410",
+      "fid": "SEL-651R-2-R410-V0-Z010003-D20200608",
+      "date": "2020-06-08",
+      "manual_date_code": "20200608",
+      "page": 846,
+      "command_changes": [],
+      "n_change_bullets": 4
+    },
+    {
+      "revision": "R409",
+      "fid": "SEL-651R-2-R409-V2-Z009003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 846,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R409",
+      "fid": "SEL-651R-2-R409-V1-Z009003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 846,
+      "command_changes": [],
+      "n_change_bullets": 3
+    },
+    {
+      "revision": "R409",
+      "fid": "SEL-651R-2-R409-V0-Z009003-D20200205",
+      "date": "2020-02-05",
+      "manual_date_code": "20200205",
+      "page": 847,
+      "command_changes": [],
+      "n_change_bullets": 5
+    },
+    {
+      "revision": "R408",
+      "fid": "SEL-651R-2-R408-V2-Z008003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 847,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R408",
+      "fid": "SEL-651R-2-R408-V1-Z008003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 847,
+      "command_changes": [],
+      "n_change_bullets": 3
+    },
+    {
+      "revision": "R408",
+      "fid": "SEL-651R-2-R408-V0-Z008003-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 847,
+      "command_changes": [],
+      "n_change_bullets": 5
+    },
+    {
+      "revision": "R407",
+      "fid": "SEL-651R-2-R407-V3-Z007003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 848,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R407",
+      "fid": "SEL-651R-2-R407-V2-Z007003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 848,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R407",
+      "fid": "SEL-651R-2-R407-V1-Z007003-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 848,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R407",
+      "fid": "SEL-651R-2-R407-V0-Z007003-D20180131",
+      "date": "2018-01-31",
+      "manual_date_code": "20180131",
+      "page": 848,
+      "command_changes": [],
+      "n_change_bullets": 4
+    },
+    {
+      "revision": "R406",
+      "fid": "SEL-651R-2-R406-V4-Z006003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 849,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R406",
+      "fid": "SEL-651R-2-R406-V3-Z006003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 849,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R406",
+      "fid": "SEL-651R-2-R406-V2-Z006003-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 849,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R406",
+      "fid": "SEL-651R-2-R406-V1-Z006003-D20170818",
+      "date": "2017-08-18",
+      "manual_date_code": "20170818",
+      "page": 849,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R406",
+      "fid": "SEL-651R-2-R406-V0-Z006003-D20160810",
+      "date": "2016-08-10",
+      "manual_date_code": "20160810",
+      "page": 849,
+      "command_changes": [],
+      "n_change_bullets": 8
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V6-Z005003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 849,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V5-Z005003-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 850,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V4-Z005003-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 850,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V3-Z005003-D20170818",
+      "date": "2017-08-18",
+      "manual_date_code": "20170818",
+      "page": 850,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V2-Z005003-D20150722",
+      "date": "2015-07-22",
+      "manual_date_code": "20150722",
+      "page": 850,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V1-Z005003-D20150709",
+      "date": "2015-07-09",
+      "manual_date_code": "20150709",
+      "page": 850,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R405",
+      "fid": "SEL-651R-2-R405-V0-Z005003-D20140306",
+      "date": "2014-03-06",
+      "manual_date_code": "20140306",
+      "page": 850,
+      "command_changes": [],
+      "n_change_bullets": 16
+    },
+    {
+      "revision": "R403",
+      "fid": "SEL-651R-2-R403-V5-Z004003-D20220510",
+      "date": "2022-05-10",
+      "manual_date_code": "20220510",
+      "page": 851,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R403",
+      "fid": "SEL-651R-2-R403-V4-Z004002-D20211018",
+      "date": "2021-10-18",
+      "manual_date_code": "20211018",
+      "page": 851,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R403",
+      "fid": "SEL-651R-2-R403-V3-Z004002-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 851,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R403",
+      "fid": "SEL-651R-2-R403-V2-Z004002-D20170818",
+      "date": "2017-08-18",
+      "manual_date_code": "20170818",
+      "page": 851,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R403",
+      "fid": "SEL-651R-2-R403-V1-Z004002-D20150722",
+      "date": "2015-07-22",
+      "manual_date_code": "20150722",
+      "page": 851,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R403",
+      "fid": "SEL-651R-2-R403-V0-Z004002-D20130624",
+      "date": "2013-06-24",
+      "manual_date_code": "20130624",
+      "page": 852,
+      "command_changes": [],
+      "n_change_bullets": 3
+    },
+    {
+      "revision": "R402",
+      "fid": "SEL-651R-2-R402-V2-Z003002-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 852,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R402",
+      "fid": "SEL-651R-2-R402-V1-Z003002-D20150722",
+      "date": "2015-07-22",
+      "manual_date_code": "20150722",
+      "page": 852,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R402",
+      "fid": "SEL-651R-2-R402-V0-Z003002-D20121219",
+      "date": "2012-12-19",
+      "manual_date_code": "20121219",
+      "page": 852,
+      "command_changes": [],
+      "n_change_bullets": 17
+    },
+    {
+      "revision": "R401",
+      "fid": "SEL-651R-2-R401-V2-Z002001-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 852,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R401",
+      "fid": "SEL-651R-2-R401-V1-Z002001-D20180615",
+      "date": "2018-06-15",
+      "manual_date_code": "20180615",
+      "page": 852,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R401",
+      "fid": "SEL-651R-2-R401-V0-Z002001-D20120831",
+      "date": "2012-08-31",
+      "manual_date_code": "20120831",
+      "page": 853,
+      "command_changes": [],
+      "n_change_bullets": 1
+    },
+    {
+      "revision": "R400",
+      "fid": "SEL-651R-2-R400-V2-Z001001-D20190308",
+      "date": "2019-03-08",
+      "manual_date_code": "20190308",
+      "page": 853,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R400",
+      "fid": "SEL-651R-2-R400-V1-Z001001-D20180615",
+      "date": "2018-06-15",
+      "manual_date_code": "20180615",
+      "page": 853,
+      "command_changes": [],
+      "n_change_bullets": 2
+    },
+    {
+      "revision": "R400",
+      "fid": "SEL-651R-2-R400-V0-Z001001-D20120518",
+      "date": "2012-05-18",
+      "manual_date_code": "20120518",
+      "page": 853,
+      "command_changes": [],
+      "n_change_bullets": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+ANONYMIZED CAPTURE: live SEL-751 SER output, trimmed to 18 of 1024 rows (SEL-751-R300-V3-Z008004-D20210104); site, relay names, serial and CID replaced.
+SER
+
+LAB SITE                                  Date: 10/12/2026   Time: 19:08:49.481
+LAB RELAY                                Time Source: Internal
+
+Serial No = 0000000000      FID = SEL-751-R300-V3-Z008004-D20210104
+CID = 0000
+
+ #       DATE         TIME               ELEMENT                STATE
+1024  12/15/2021  07:47:43.667   IN101                     Asserted
+1023  12/15/2021  07:47:43.667   52A                       Asserted
+1022  12/15/2021  07:47:43.785   IN101                     Deasserted
+1021  12/15/2021  07:47:43.788   52A                       Deasserted
+1020  12/15/2021  07:48:01.034   IN101                     Asserted
+1019  12/15/2021  07:48:01.036   52A                       Asserted
+1018  12/15/2021  07:48:01.153   IN101                     Deasserted
+1017  12/15/2021  07:48:01.156   52A                       Deasserted
+876   12/15/2021  09:00:25.430   Relay Settings Changed
+839   12/15/2021  09:07:18.730   Relay Settings Changed
+818   12/15/2021  09:11:17.153   Relay Settings Changed
+809   12/15/2021  09:12:17.385   Relay Settings Changed
+800   12/15/2021  09:13:05.118   Relay Settings Changed
+779   12/15/2021  09:28:46.633   Relay Settings Changed
+4     06/16/2026  06:28:29.007   SALARM                    Deasserted
+3     06/16/2026  06:31:52.134   Relay Settings Changed
+2     06/16/2026  06:35:05.653   FP_CLOSE                  PICKUP
+1     06/16/2026  06:35:06.011   FP_CLOSE                  DROPOUT
+
+=>

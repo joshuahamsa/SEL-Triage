@@ -1,0 +1,5 @@
+ANONYMIZED CAPTURE: SEL-751 live output 2026-09-25; site name and serial replaced
+BRE
+Breaker Monitor setting EBMON not enabled
+
+=>

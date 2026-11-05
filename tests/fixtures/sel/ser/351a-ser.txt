@@ -1,0 +1,26 @@
+ANONYMIZED CAPTURE: live SEL-351A SER output, trimmed to 15 of 1024 rows (SEL-351A-R518-V1-Z107106-D20210917); site, relay names, serial and CID replaced.
+SER
+
+LAB SITE                           Date: 10/12/26    Time: 21:08:16.170
+LAB RELAY 
+
+FID=SEL-351A-R518-V1-Z107106-D20210917       CID=0000
+
+#     Date      Time           Element            State
+1024  06/30/24  19:32:38.834   SV2T               Asserted
+1023  06/30/24  19:33:06.723   SV1T               Asserted
+1022  06/30/24  19:33:06.757   SV1T               Deasserted
+1021  06/30/24  19:33:07.515   SV1T               Asserted
+1020  06/30/24  19:33:07.532   SV1T               Deasserted
+1019  06/30/24  19:33:19.719   SV1T               Asserted
+1018  06/30/24  19:33:19.769   SV1T               Deasserted
+1017  06/30/24  19:33:20.469   SV1T               Asserted
+833   06/30/24  20:00:09.216    Relay newly powered up
+430   07/01/24  04:35:48.216    Relay newly powered up
+173   09/01/26  18:47:50.216    Relay newly powered up
+4     10/08/26  11:34:44.376   SV6T               Asserted
+3     10/08/26  11:34:44.380   OUT101             Asserted
+2     10/08/26  11:35:10.590   SV6T               Deasserted
+1     10/08/26  11:35:10.595   OUT101             Deasserted
+
+=>

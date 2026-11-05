@@ -1,0 +1,206 @@
+ANONYMIZED CAPTURE: live SEL-700GT SHO output (R302 firmware, 2026-09-29); site name and serial replaced.
+SHO
+
+Group 1
+Relay Settings
+
+ID Settings
+RID      := SEL-700GT
+TID      := LAB SITE
+
+Config Settings
+PHROT    := ABC           CTRX     := 40            INOM     := 5.0
+DELTAY_X := WYE           PTRX     := 147.50        VNOM_X   := 13.20
+CTRY     := 40            DELTAY_Y := WYE           PTRY     := 147.50
+VNOM_Y   := 13.20         PTRS     := 1.00          CTRN     := 40
+
+Gnd Differential
+E87N     := N
+
+Res Earth Fault
+EREF     := N
+
+Rotor Ground
+E64F     := N
+
+System Backup
+EBUP     := V
+
+Volt-Restr TOC
+51VP     := OFF
+
+Loss of Field
+E40      := N
+
+Curr Unbalance
+E46      := N
+
+Thermal Overload
+E49T     := N
+
+Volts per Hertz
+E24      := N
+
+Inadv Enrgzation
+EINAD    := N
+
+X Side Phase IOC
+50PX1P   := OFF           50PX2P   := OFF           50PX3P   := OFF
+
+X Side Res IOC
+50GX1P   := OFF           50GX2P   := OFF
+
+XSide NegSeq IOC
+50QX1P   := OFF           50QX2P   := OFF
+
+X Side Res TOC
+51GXP    := OFF
+
+Y Side Phase IOC
+50PY1P   := OFF           50PY2P   := OFF           50PY3P   := OFF
+
+Y Side Res IOC
+50GY1P   := OFF           50GY2P   := OFF
+
+YSide NegSeq IOC
+50QY1P   := OFF           50QY2P   := OFF
+
+Y Side Phase TOC
+51PYP    := OFF
+
+Y Side Res TOC
+51GYP    := OFF
+
+YSide NegSeq TOC
+51QYP    := OFF
+
+Neutral IOC
+50N1P    := OFF           50N2P    := OFF
+
+Neutral TOC
+51NP     := OFF
+
+X Side Dir Elem
+EDIRX    := N
+
+Y Side Dir Elem
+EDIRY    := N
+
+Y Side Ld Encrch
+ELOADY   := N
+
+X Side Pwr Elem
+EPWRX    := 1             3PWRX1P  := 10.0          PWRX1T   := +WATTS
+PWRX1D   := 0.00
+
+Y Side Pwr Elem
+EPWRY    := N
+
+X Side Frequency
+E81X     := N
+
+Y Side Frequency
+E81Y     := N
+
+X Side ROC Freq
+E81RX    := N
+
+Y Side ROC Freq
+E81RY    := N
+
+Freq Accumulator
+E81ACC   := N
+
+LOP Setting
+LOPBLKX  := SV13T OR FREQX < MV01
+LOPBLKY  := SV13T OR FREQX < MV01
+
+X Ph Undervolt
+27PX1P   := OFF           27PX2P   := OFF           27PPX1P  := 93.5
+27PPX1D  := 0.50          27PPX2P  := OFF
+
+Y Ph Undervolt
+27PY1P   := OFF           27PY2P   := OFF           27PPY1P  := 93.5
+27PPY1D  := 0.50          27PPY2P  := OFF
+
+X Ph Overvolt
+59PX1P   := OFF           59PX2P   := OFF           59PPX1P  := OFF
+59PPX2P  := OFF
+
+Y Ph Overvolt
+59PY1P   := OFF           59PY2P   := OFF           59PPY1P  := OFF
+59PPY2P  := OFF
+
+X P-Seq U/O Volt
+E27V1X   := 1             27V1X1P  := 5.0           27V1X1D  := 0.50
+E59V1X   := N
+
+X N-Seq Overvolt
+59QX1P   := OFF           59QX2P   := OFF
+
+Y N-Seq Overvolt
+59QY1P   := OFF           59QY2P   := OFF
+
+X Z-Seq Overvolt
+59GX1P   := OFF           59GX2P   := OFF
+
+Y Z-Seq Overvolt
+59GY1P   := OFF           59GY2P   := OFF
+
+Sync U/Ovr Volt
+27S1P    := OFF           27S2P    := OFF           59S1P    := OFF
+59S2P    := OFF
+
+27 Inverse Time
+E27I1    := N             E27I2    := N
+
+59 Inverse Time
+E59I1    := N             E59I2    := N             E59I3    := N
+E59I4    := N
+
+RTD Settings
+E49RTD   := NONE
+
+Vector Shift Set
+E78VS    := OFF
+
+X Side SyncCheck
+E25X     := N
+
+Y Side SyncCheck
+E25Y     := N
+
+Demand Mtr Set
+EDEM     := ROL           DMTC     := 15            PHDEMPX  := OFF
+GNDEMPX  := OFF           3I2DEMPX := OFF           PHDEMPY  := OFF
+GNDEMPY  := OFF           3I2DEMPY := OFF
+
+X Side Pole Open
+50LXP    := 0.25          3POXD    := 0.00
+
+Y Side Pole Open
+50LYP    := 0.25          3POYD    := 0.00
+
+Trip/Close Logic
+TDURD    := 0.50          CFDX     := 0.50          CFDY     := 0.50
+TRX      := NOT 3PWRX1T
+TR1      := 0
+TR2      := 0
+TR3      := 0
+TRY      := 0
+REMTRIP  := 0
+ULTRX    := 3PWRX1T
+ULTR1    := NOT TR1
+ULTR2    := NOT TR2
+ULTR3    := NOT TR3
+ULTRY    := 0
+52AX     := RMB2A
+52BX     := 0
+CLX      := 0
+ULCLX    := TRIPX
+52AY     := 0
+52BY     := 0
+CLY      := 0
+ULCLY    := 0
+
+=>

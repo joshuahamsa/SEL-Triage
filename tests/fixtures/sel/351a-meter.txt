@@ -1,0 +1,27 @@
+ANONYMIZED CAPTURE: SEL-351A live output 2026-09-25; relay and site IDs replaced
+MET
+
+LAB RELAY                           Date: 09/25/26    Time: 21:21:45.399
+LAB SITE       
+
+                 A         B         C         N         G
+I MAG (A)        0.000     0.000     0.000     0.000     0.000
+I ANG (DEG)      0.00      0.00      0.00      0.00      0.00
+
+                 A         B         C         S
+V MAG (KV)      13.951    14.013    13.942     0.000
+V ANG (DEG)      0.00   -120.19    119.71      0.00
+
+                 A         B         C         3P
+MW               0.000     0.000     0.000     0.000
+MVAR             0.000     0.000     0.000     0.000
+PF               1.000     1.000     1.000     1.000
+                 LAG       LAG       LAG       LAG      
+
+                 I1       3I2       3I0        V1        V2       3V0
+MAG              0.000     0.000     0.000    13.968     0.043     0.006
+ANG   (DEG)      0.00      0.00      0.00     -0.16    111.05   -148.86
+
+FREQ (Hz)      60.02                VDC (V)       24.1
+
+=>

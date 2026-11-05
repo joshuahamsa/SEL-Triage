@@ -1,0 +1,13 @@
+category,priority,tag_name,message,t_value,host_name,device_name,device_guid
+Internal,,SystemTags.Power_Up_Description,"RTAC started with firmware: SEL-3505-3-R146-V1-Z000009-D20200425, project: Factory Default",2024-01-10 08:00:00.100,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.User_Logged_On,labuser logged on device via ODBC,2024-01-10 08:05:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.User_Added,User labuser added,2024-01-10 08:06:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Internal,,SystemTags.Power_Up_Description,"RTAC started with firmware: SEL-3505-3-R146-V1-Z000009-D20200425, project: LAB_Curtailment_R1",2024-01-10 08:20:00.200,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.User_Logged_Off,labuser logged off device via ODBC,2024-01-10 08:30:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+
+Security,,SystemTags.User_Logged_On,labuser logged on device via Web,2026-09-01 10:00:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.User_Changed_Settings,Time System modified settings,2026-09-01 10:02:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Internal,,SystemTags.Power_Up_Description,"RTAC started with firmware: SEL-3505-3-R147-V2-Z000010-D20210101, project: LAB_Curtailment_R2",2026-09-01 10:10:00.500,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.Unsuccessful_Log_On_Attempt,admin login attempt failed,2026-09-20 09:00:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.Unsuccessful_Log_On_Attempt,admin login attempt failed,2026-09-20 09:00:30.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001
+Security,,SystemTags.User_Logged_Off,labuser logged off device via Web,2026-09-20 09:05:00.000,SEL-3505-3-000000000000,SEL_RTAC,1000000001

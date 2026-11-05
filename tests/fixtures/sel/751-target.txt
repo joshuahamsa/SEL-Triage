@@ -1,0 +1,7 @@
+ANONYMIZED CAPTURE: SEL-751 live output 2026-09-25; site name and serial replaced
+TAR
+
+ENABLED   TRIP_LED  TLED_01   TLED_02   TLED_03   TLED_04   TLED_05   TLED_06
+1         0         0         0         0         0         0         0
+
+=>

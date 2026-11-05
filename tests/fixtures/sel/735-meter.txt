@@ -1,0 +1,41 @@
+ANONYMIZED CAPTURE: SEL-735 live output 2026-09-25; site name and serial replaced
+MET
+
+
+SEL-735                           Date: 09/25/26    Time: 12:57:01.619
+LAB SITE                                            Time Source: int
+
+
+                           A             B             C             N
+I MAG (A)               320.25        322.86        322.44          8.43 
+I ANG (DEG)               0.47        121.67       -119.42       -154.12 
+
+                           A             B             C
+V MAG ( V)              288.43        288.76        285.99 
+V ANG (DEG)               0.00        120.63       -119.55 
+
+                           AB            BC            CA
+V MAG ( V)              501.45        497.28        496.34 
+V ANG (DEG)             -29.70         90.70       -149.92 
+
+                           A             B             C             3P
+W     (kW)               92.37         93.21         92.22        277.80 
+S     (kVA)              92.37         93.23         92.22        277.82 
+Q DEL LAG  (kVAR)         0.00          0.00          0.00          0.00 
+Q DEL LEAD (kVAR)         0.00          0.00          0.00          0.00 
+Q REC LAG  (kVAR)         0.00          0.00          0.00          0.00 
+Q REC LEAD (kVAR)         0.75          1.69          0.21          2.65 
+DISP PF                   1.00          1.00          1.00          1.00 
+                          LEAD          LEAD          LEAD          LEAD 
+
+                   I1           3I2           3I0            V1            V2           3V0
+MAG               1.75        964.66          8.49          1.81        287.70          0.37 
+ANG (DEG)       -51.52          0.88       -154.66        -68.99          0.35        -45.00 
+
+FREQ (Hz)        60.00 
+
+                    A             B             C
+V(%NOM)          104.07        104.27        103.19 
+F(%NOM)          100.00 
+
+=>

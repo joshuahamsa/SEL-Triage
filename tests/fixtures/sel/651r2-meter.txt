@@ -1,0 +1,37 @@
+SANITIZED CAPTURE: SEL-651R2 incident response; identifiers removed
+MET
+
+LAB-RECLOSER-01                   Date: 07/15/2026  Time: 13:07:41.605
+LAB-SITE                          Time Source: internal
+                  A         B         C         N         G
+I MAG (A)        0.012     0.010     0.015     0.016     0.016
+I ANG (deg)     88.50     77.37     90.82     90.64     90.64
+
+                 I1        3I2       3I0
+I MAG (A)        0.002     0.006     0.037
+I ANG (deg)     24.69   -159.07     86.53
+
+                 VAY       VBY       VCY       VAZ       VBZ       VCZ
+V MAG (kV)       7.095     7.246     7.301     0.000     0.000     0.000
+V ANG (deg)      0.00    119.90   -120.05   -161.85    108.15   -161.85
+
+                VABY      VBCY      VCAY      VABZ      VBCZ      VCAZ
+V MAG (kV)      12.414    12.601    12.471     0.000     0.000     0.000
+V ANG (deg)    -30.40     89.80   -149.55    -71.85    108.15   -161.85
+
+                 V1Y       V2Y      3V0Y       V1Z       V2Z      3V0Z
+V MAG (kV)       0.064     7.214     0.177     0.000     0.000     0.000
+V ANG (deg)    162.79     -0.05   -167.55   -131.85    -11.85    108.15
+
+                  A         B         C        3P
+MW               0.000     0.000    -0.000    -0.000
+MVAR            -0.000     0.000     0.000     0.000
+MVA              0.000     0.000     0.000     0.000
+PF               0.026     0.737     0.858     0.918
+                 LEAD      LAG       LEAD      LEAD
+
+FREQ  (Hz)      60.01
+
+Vbase (kV)       0.000
+
+=>

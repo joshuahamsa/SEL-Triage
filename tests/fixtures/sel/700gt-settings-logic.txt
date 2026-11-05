@@ -1,0 +1,78 @@
+ANONYMIZED CAPTURE: live SEL-700GT SHO L output (R302 firmware, 2026-09-29); site name and serial replaced.
+SHO L
+
+Group 1
+Logic Settings
+
+SELogic Enables
+ELAT     := 6             ESV      := 15            ESC      := N
+EMV      := 1
+
+Latch Bits Eqns
+SET01    := NOT SV02T
+RST01    := TRGTR
+SET02    := TRIPX
+RST02    := RMB2A
+SET03    := 0
+RST03    := 0
+SET04    := 0
+RST04    := 0
+SET05    := 0
+RST05    := 0
+SET06    := 0
+RST06    := 0
+
+SV/Timers Set
+SV01PU   := 3.00          SV01DO   := 0.00
+SV01     := PB01
+SV02PU   := 0.00          SV02DO   := 30.00
+SV02     := 3PWRX1P
+SV03PU   := 0.00          SV03DO   := 0.00
+SV03     := 0
+SV04PU   := 0.00          SV04DO   := 0.00
+SV04     := 0
+SV05PU   := 0.00          SV05DO   := 0.00
+SV05     := 0
+SV06PU   := 0.00          SV06DO   := 0.00
+SV06     := 0
+SV07PU   := 0.00          SV07DO   := 0.00
+SV07     := 0
+SV08PU   := 0.00          SV08DO   := 0.00
+SV08     := 0
+SV09PU   := 0.00          SV09DO   := 0.00
+SV09     := 0
+SV10PU   := 0.00          SV10DO   := 0.00
+SV10     := 0
+SV11PU   := 0.00          SV11DO   := 2.00
+SV11     := 0
+SV12PU   := 0.00          SV12DO   := 0.00
+SV12     := 0
+SV13PU   := 0.00          SV13DO   := 0.20
+SV13     := 0
+SV14PU   := 0.00          SV14DO   := 0.00
+SV14     := 0
+SV15PU   := 1.00          SV15DO   := 0.00
+SV15     := 0
+
+Math Variables
+MV01     := FREQX * SV14 + MV01 * NOT SV14
+
+Base Output Set
+OUT101FS := N
+OUT101   := TRIPX
+OUT102FS := N
+OUT102   := 0
+OUT103FS := Y
+OUT103   := HALARM OR SALARM
+
+Mirrored Bits Transmit SELogic Equations
+TMB1A    := TRIPX
+TMB2A    := NA
+TMB3A    := NA
+TMB4A    := NA
+TMB5A    := NA
+TMB6A    := NA
+TMB7A    := NA
+TMB8A    := NA
+
+=>

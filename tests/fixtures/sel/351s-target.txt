@@ -1,0 +1,8 @@
+ANONYMIZED CAPTURE: SEL-351S live output 2026-09-25; relay and site IDs replaced
+TAR
+
+
+TLED11   TLED12   TLED13   TLED14   TLED15   TLED16   TLED17   TLED18   
+1        0        0        0        0        0        0        0        
+
+=>

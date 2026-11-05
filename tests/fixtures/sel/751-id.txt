@@ -1,0 +1,7 @@
+SANITIZED CAPTURE: real SEL-751 identity response from the fleet audit; identifiers and unrelated fields removed
+ID
+
+"FID=SEL-751-R400-V4-Z100100-D20241031","089F"
+"DEVID=LAB-RELAY-01","REDACTED"
+
+=>

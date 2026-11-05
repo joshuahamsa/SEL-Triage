@@ -1,0 +1,31 @@
+ANONYMIZED CAPTURE: SEL-351A live output 2026-09-25; relay and site IDs replaced
+BRE
+
+LAB RELAY                           Date: 09/25/26    Time: 21:21:46.058
+LAB SITE       
+
+                                  A-phase     B-phase     C-phase
+Accum Contact Wear (%)                  0           0           0
+
+Rly Accum Pri Current (kA)            0.0         0.0         0.0
+Ext Accum Pri Current (kA)            0.0         0.0         0.0
+
+Rly Trip Count                          0
+Ext Trip Count                          0
+
+                                 Trip A  Trip B  Trip C   Cls A   Cls B   Cls C
+Avg. Elect Op Time (ms)             0.0     0.0     0.0     0.0     0.0     0.0 
+Last Elect Op Time (ms)             0.0     0.0     0.0     0.0     0.0     0.0 
+
+Avg. Mech Op Time (ms)              0.0                     0.0 
+Last Mech Op Time (ms)              0.0                     0.0 
+
+Last Op Minimum VDC (V)             0.0                     0.0
+
+                                  Alarm  Total Count
+Mechanical Operating Time         MSOAL         0
+Electrical Operating Time         ESOAL         0
+
+
+LAST RESET 05/23/23 16:20:21
+=>

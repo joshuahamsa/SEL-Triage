@@ -1,0 +1,14 @@
+SANITIZED CAPTURE: SEL-651R2 incident response; identifiers removed; recent rows retained
+HIS
+
+LAB-RECLOSER-01                   Date: 07/15/2026  Time: 13:07:33.670
+LAB-SITE                          Time Source: internal
+
+#      DATE        TIME     EVENT LOCAT  CURR FREQ GST          TARGETS
+                                                   RHR   COLUMN 1     COLUMN 2
+1   07/15/2026 09:33:58.858 TRIP  $$$$$     0 60.0 131 100000000000 001000000000
+2   07/15/2026 09:33:57.200 CAG T $$$$$  2697 60.0 101 101000010000 001000000000
+3   03/23/2026 09:23:06.005 CA    $$$$$   145 60.0 130 100000000000 001000000000
+4   03/21/2026 02:18:57.504 TRIP  $$$$$     0 60.0 101 000000000000 001000000000
+
+=>

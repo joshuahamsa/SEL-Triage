@@ -1,0 +1,8 @@
+ANONYMIZED CAPTURE: SEL-735 live output 2026-09-25; site name and serial replaced
+TAR
+
+
+LED6    LED5    LED4    LED3    LED2    LED1    *       ENABLE
+0       0       0       1       1       1       0       1       
+
+=>

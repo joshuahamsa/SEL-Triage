@@ -1,0 +1,30 @@
+ANONYMIZED CAPTURE: live SEL-735 SER output, trimmed to 18 of 15255 rows (SEL-735-R201-V0-Z100100-D20180621); site, relay names, serial and CID replaced.
+SER
+
+
+LAB SITE                          Date: 10/12/26    Time: 20:19:04.613
+LAB RELAY                                           Time Source: int
+
+FID=SEL-735-R201-V0-Z100100-D20180621       CID=0000
+
+#      Date      Time           Element           State
+ 15255 08/13/19  14:37:32.076   Power loss
+ 15254 11/02/19  08:25:24.905   Power restored
+ 15253 11/02/19  08:29:34.338   SALARM            Asserted
+ 15252 11/02/19  08:29:35.338   SALARM            Deasserted
+ 15251 11/02/19  08:30:11.822   Settings changed
+ 15250 11/02/19  08:30:11.822   Power loss
+ 15249 11/02/19  08:30:16.162   Power restored
+ 15248 11/02/19  09:45:18.270   Power loss
+ 15247 11/02/19  09:51:54.131   Power restored
+ 15246 11/04/19  08:14:17.794   Power loss
+ 15245 04/23/20  09:07:10.775   Power restored
+ 15243 04/23/20  09:19:52.006   Power loss
+ 15242 04/23/20  09:20:23.031   Power restored
+ 15240 04/23/20  11:08:38.987   Power loss
+     4 10/10/26  07:09:19.666   Power loss
+     3 10/10/26  07:33:42.441   Power restored
+     2 10/10/26  07:33:52.475   SWC               Asserted
+     1 10/10/26  07:33:52.475   SWA               Asserted
+
+=>

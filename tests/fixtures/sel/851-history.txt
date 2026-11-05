@@ -1,0 +1,25 @@
+ANONYMIZED CAPTURE: SEL-851 live output 2026-09-25; site name and serial replaced
+HIS
+
+SEL-851                                  Date: 09/25/2026   Time: 15:33:44.928
+LAB SITE                                 Time Source: Internal
+
+
+FID = SEL-851-R100-V1-Z001001-D20220513                           
+
+#        DATE        TIME     EVENT                      CURR  FREQ TARGETS
+10313 08/05/2026 01:51:38.327 Undefined Trip              2.3 60.03 1101100010
+10312 06/19/2025 13:03:32.435 Undefined Trip              2.1 60.01 1101100010
+10311 11/18/2024 18:56:35.985 Undefined Trip              2.5 60.00 1101100010
+10310 12/25/2023 20:38:48.910 Undefined Trip              2.5 60.02 1101100010
+10309 12/01/2023 15:59:06.489 Undefined Trip            460.7 60.02 1101010010
+10308 10/18/2023 14:34:39.367 Trigger                   140.8 59.99 1001000001
+10307 10/18/2023 14:32:20.229 Event Report Trigger      153.1 60.00 1001000001
+10306 10/18/2023 14:25:35.597 Event Report Trigger      212.2 59.98 1001000001
+10305 10/18/2023 13:56:05.105 Trigger                   410.0 59.99 1001000001
+10304 10/18/2023 13:54:54.777 Event Report Trigger      423.1 59.99 1001000001
+10303 10/18/2023 13:54:48.957 Event Report Trigger      424.4 60.00 1001000001
+10302 10/18/2023 13:54:42.765 Event Report Trigger      426.1 60.01 1001000001
+10301 10/18/2023 13:54:36.757 Event Report Trigger      427.8 60.00 1001000001
+
+=>

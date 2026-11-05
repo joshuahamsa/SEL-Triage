@@ -1,0 +1,33 @@
+SANITIZED CAPTURE: SEL-651R2 incident response; identifiers removed
+STA
+
+LAB-RECLOSER-01                   Date: 07/15/2026  Time: 13:07:41.041
+LAB-SITE                          Time Source: internal
+
+FID=SEL-651R-2-R411-V1-Z011003-D20211018
+
+SELF TESTS
+
+Channel Offsets (mV)   W=Warn    F=Fail
+     I1     I2     I3     IN    V1Y    V2Y    V3Y    V1Z    V2Z    V3Z    MOF
+OS    0      0      1     -4      0      0      0      0      0      0      0
+OSH  -0     -0      0     -4
+
+Power Supply Voltages (V)   W=Warn    F=Fail
+    +5V_PS   +5V_REG   +15V_PS   -15V_PS   +12V_TC   +5VA_PS   -5VA_PS
+      4.98      5.03     14.98    -14.99     11.92      4.97     -5.03
+
+Temperature                 RTC     HMI
+   50.8  degrees Celsius     OK      OK
+
+Integrated Circuit and Board Status
+     RAM     ROM     A/D   FLASH    FPGA  EEPROM INT_BRD USB_BRD COM_BRD
+      OK      OK      OK      OK      OK      OK      OK      OK      OK
+
+Mains, Battery Monitor and Capacitor Monitor
+    INPBV   12VAUX    CMODE     VBAT     IBAT   TCCAPV
+    12.27    12.27  FLT_CHG    13.44     0.03     53.4
+
+Relay Enabled
+
+=>

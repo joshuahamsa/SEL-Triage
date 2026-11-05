@@ -1,0 +1,6 @@
+SYNTHETIC FIXTURE: layout of an SEL RTAC services report
+Firewall State:
+
+Chain INPUT (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 ACCEPT     tcp  --  eth0   *       0.0.0.0/0            0.0.0.0/0            tcp dpt:443

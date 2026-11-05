@@ -1,0 +1,15 @@
+[connect] 192.0.2.11:2381
+>>> ACC
+<<< ACC
+
+<<< Password: ? 
+<<< *****
+
+<<< 
+SEL-751                                  Date: 06/01/2026   Time: 08:12:00.000
+ALPHA RELAY                              Time Source: Internal
+
+Level 1
+
+=>
+>>> ID

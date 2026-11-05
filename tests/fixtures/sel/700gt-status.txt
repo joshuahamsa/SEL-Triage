@@ -1,0 +1,30 @@
+ANONYMIZED CAPTURE: SEL-700GT live output 2026-09-25; site name and serial replaced
+STA
+
+SEL-700GT                                Date: 09/25/2026   Time: 16:23:31.819
+LAB SITE                                 Time Source: Internal
+
+Serial Num = 0000000000     FID = SEL-700G-R302-V1-Z008004-D20240329
+CID = 04E2                  PART NUM = 0700GT2B0X0X75850620
+
+Self Tests  (= Warn) 
+  FPGA  GPSB  HMI   RAM   ROM   CR_RAM  NON_VOL  CLOCK  +0.9V  +1.2V  +1.5V
+  OK    OK    OK    OK    OK    OK      OK       OK     0.90   1.20   1.49
+
+  +1.8V  +2.5V  +3.3V  +3.75V  +5.0V  -1.25V  -5.0V   BATT
+  1.81   2.50   3.35   3.75    4.93   -1.26   -4.97   2.99
+
+Option Cards
+  CARD_C  CARD_D  CARD_E  CARD_Z
+  OK      OK      OK      OK
+
+Offsets (mV) W=Warn
+  IAX   IBX   ICX   IAY   IBY   ICY    IN   VAX   VBX   VCX   VAY   VBY   VCY
+  0     0     -1    2     1     1     0     0     0     0     -1    -1    -1
+
+   VS
+  -1
+
+  Relay Enabled
+
+=>

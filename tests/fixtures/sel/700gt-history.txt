@@ -1,0 +1,18 @@
+ANONYMIZED CAPTURE: SEL-700GT live output 2026-09-25; site name and serial replaced
+HIS
+
+SEL-700GT                                Date: 09/25/2026   Time: 16:23:35.051
+LAB SITE                                 Time Source: Internal
+
+
+FID=SEL-700G-R302-V1-Z008004-D20240329
+
+#  REF      DATE        TIME        EVENT        CURRENT   FREQX FREQY TARGETS
+1  23551 09/19/2026 14:31:34.342 ER Trigger         30.2   60.1  60.0  11000000
+2  23550 09/19/2026 14:31:19.141 ER Trigger         30.7   60.1  60.0  11000000
+3  23549 09/19/2026 14:31:04.090 ER Trigger         31.2   60.0  60.0  11000000
+4  23548 09/19/2026 14:30:47.085 ER Trigger         31.0   60.1  60.0  11000000
+5  23547 09/19/2026 14:30:30.308 ER Trigger         31.6   60.1  60.0  11000000
+6  23546 09/19/2026 14:30:13.672 ER Trigger         31.8   60.1  60.0  11000000
+
+=>

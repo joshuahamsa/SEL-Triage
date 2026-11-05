@@ -1,0 +1,51 @@
+ANONYMIZED CAPTURE: SEL-700GT live output 2026-09-25; site name and serial replaced
+MET
+
+SEL-700GT                                Date: 09/25/2026   Time: 16:23:32.628
+LAB SITE                                 Time Source: Internal
+
+                 IAX        IBX        ICX        IGX        I1X       3I2X
+Mag (A pri.)       48.0       50.3       47.6        0.5        1.7      145.9
+Angle (deg)       -15.9      105.5     -132.6       30.0     -133.5      -14.4
+
+                 IAY        IBY        ICY        IGY        I1Y       3I2Y
+Mag (A pri.)        0.0        0.0        0.0        0.0        0.0        0.0
+Angle (deg)         0.0        0.0        0.0        0.0        0.0        0.0
+
+                 IN
+Mag (A pri.)        0.0
+Angle (deg)         0.0
+
+                 VAX        VBX        VCX        VGX        V1X       3V2X
+Mag (V pri.)     7840.0     7908.0     7850.1        9.8       44.7    23597.9
+Angle (deg)         0.0      120.2     -119.4       -1.9     -130.8        0.2
+
+                 VAY        VBY        VCY        VGY        V1Y       3V2Y
+Mag (V pri.)        0.0        0.0        0.0        0.0        0.0        0.0
+Angle (deg)         0.0        0.0        0.0        0.0        0.0        0.0
+
+                 VS
+Mag (V pri.)        0.0
+Angle (deg)         0.0
+
+                          AX             BX             CX             3PX
+Real Pwr (kW)               362            385            364           1111
+Reactive Pwr (kVAR)         103            101             85            289
+Apparent Pwr (kVA)          376            398            374           1148
+Pwr Factor                    0.96           0.97           0.97           0.97
+                            LAG            LAG            LAG            LAG
+
+                          AY             BY             CY             3PY
+Real Pwr (kW)                 0              0              0              0
+Reactive Pwr (kVAR)           0              0              0              0
+Apparent Pwr (kVA)            0              0              0              0
+Pwr Factor                    1.00           1.00           1.00           1.00
+                            LEAD           LEAD           LEAD           LEAD
+
+                FREQX  FREQY  FREQS
+Frequency (Hz)  59.96  60.00  60.00
+
+V/Hz (%)  103.6
+
+
+=>

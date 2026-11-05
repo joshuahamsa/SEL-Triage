@@ -1,0 +1,23 @@
+ANONYMIZED CAPTURE: live SEL-351-5 SER output, trimmed to 12 of 1024 rows (SEL-351-5-R518-V1-Z107106-D20210917); site, relay names, serial and CID replaced.
+SER
+
+LAB SITE                          Date: 10/12/26    Time: 21:17:20.952
+LAB RELAY               
+
+FID=SEL-351-5-R518-V1-Z107106-D20210917       CID=0000
+
+#     Date      Time           Element            State
+1024  09/29/26  11:15:26.117   51Q                Asserted
+1023  09/29/26  11:15:26.125   51Q                Deasserted
+1022  09/29/26  11:15:26.134   51Q                Asserted
+1021  09/29/26  11:15:26.142   51Q                Deasserted
+1020  09/29/26  11:15:26.150   51Q                Asserted
+1019  09/29/26  11:15:26.159   51Q                Deasserted
+1018  09/29/26  11:15:26.167   51Q                Asserted
+1017  09/29/26  11:15:26.175   51Q                Deasserted
+4     10/11/26  11:46:09.285   SV4                Deasserted
+3     10/11/26  11:46:09.293   SV7                Deasserted
+2     10/11/26  12:54:33.288   50Q1               Asserted
+1     10/11/26  12:54:33.296   50Q1               Deasserted
+
+=>

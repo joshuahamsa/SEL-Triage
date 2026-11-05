@@ -1,0 +1,33 @@
+ANONYMIZED CAPTURE: SEL-851 live output 2026-09-25; site name and serial replaced
+MET
+
+SEL-851                                  Date: 09/25/2026   Time: 15:33:43.085
+LAB SITE                                 Time Source: Internal
+
+                                 IA        IB        IC        IG      IN
+Current Magnitude (A pri.)     329.98   329.78   330.32     1.04     0.00
+Current Angle (deg)             17.6    -102.4    137.5     80.4      0.0
+
+Ave Curr Mag (A pri.)          330.03
+Pos-Seq Curr I1 (A pri.)       330.01
+Neg-Seq Curr 3I2 (A pri.)        0.68
+
+                                 VAB         VBC         VCA        VAVG
+Voltage Magnitude (V pri.)      496.35     497.20     496.53     496.69
+Voltage Angle (deg)              30.1      -89.9      150.0
+
+                                 VA           VB          VC         3V0
+Voltage Magnitude (V pri.)      286.42     286.92     286.97       0.19
+Voltage Angle (deg)               0.0      -119.9      120.0      -150.5
+
+Pos-Seq Volt V1 (V pri.)        286.77
+Neg-Seq Volt 3V2 (V pri.)         0.90
+
+Real Power (kW)                 270.741
+Reactive Power (kVAR)           -85.500
+Apparent Power (kVA)            283.921
+Power Factor (LEAD)            0.95
+
+Frequency (Hz)                59.98
+
+=>

@@ -1,0 +1,30 @@
+ANONYMIZED CAPTURE: live SEL-851 SER output, trimmed to 18 of 804 rows (SEL-851-R100-V1-Z001001-D20220513); site, relay names, serial and CID replaced.
+SER
+
+LAB SITE                                  Date: 10/12/2026   Time: 20:26:14.304
+LAB RELAY                                 Time Source: Internal
+
+Serial Number : 0000000000
+FID=SEL-851-R100-V1-Z001001-D20220513      CID=0000
+
+  #       DATE         TIME               ELEMENT              STATE
+ 804  10/18/2022  15:47:39.919    SER archive cleared
+ 803  11/14/2022  06:40:15.975    Relay newly powered up
+ 802  11/14/2022  06:40:16.011    Relay Enabled
+ 801  11/14/2022  06:40:16.013    Trip_01.Unlt                Asserted
+ 800  11/14/2022  06:53:59.895    Relay newly powered up
+ 799  11/14/2022  06:53:59.931    Relay Enabled
+ 798  11/14/2022  06:53:59.933    Trip_01.Unlt                Asserted
+ 797  11/14/2022  06:54:58.082    IN_01.Sta                   Asserted
+ 795  11/14/2022  06:54:58.085    BREAKER                     CLOSED
+ 792  11/14/2022  06:55:10.609    BREAKER                     OPEN
+ 791  06/09/2023  06:32:49.225    Relay newly powered up
+ 790  06/09/2023  06:32:49.260    Relay Enabled
+ 788  06/12/2023  06:41:11.805    Relay newly powered up
+ 787  06/12/2023  06:41:11.841    Relay Enabled
+   4  09/03/2026  11:33:22.607    Trip_01.Init                Deasserted
+   3  09/03/2026  11:43:27.235    Relay newly powered up
+   2  09/03/2026  11:43:27.270    Relay Enabled
+   1  09/03/2026  11:43:27.273    Trip_01.Unlt                Asserted
+
+=>

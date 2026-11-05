@@ -1,0 +1,5 @@
+SYNTHETIC FIXTURE: derived from validated SEL-700GT observations; not a raw capture
+ID
+"FID=SEL-700GT-R100-V0-Z001001-D20260101","A1B2"
+"DEVID=LAB-RELAY-01","C3D4"
+=>

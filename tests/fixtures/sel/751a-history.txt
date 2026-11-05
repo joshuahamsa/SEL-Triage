@@ -1,0 +1,18 @@
+ANONYMIZED CAPTURE: live SEL-751A HIS output 2026-10-12 (SEL-751A-R420-V2-Z012003-D20190513); site and relay names replaced.
+HIS
+
+LAB SITE                                 Date: 10/12/2026   Time: 16:49:12.906
+LAB RELAY                                Time Source: Internal
+
+FID = SEL-751A-R420-V2-Z012003-D20190513
+
+#     DATE         TIME           EVENT        CURRENT       FREQ  TARGETS
+1  03/23/2025  14:47:36.339  Underfreq 81 Trip     33.0       53.5  11000010
+2  11/20/2024  10:58:05.673  Trip                  1.3       60.0  11000000
+3  08/06/2024  07:14:42.958  27 Trip               1.2       60.0  11000000
+4  04/18/2023  05:37:06.426  Trip                  1.3       60.0  11000000
+5  01/19/2023  14:53:01.230  Trip                 14.8       59.8  11000000
+6  02/19/2022  08:24:42.903  Underfreq 81 Trip      1.5       37.3  11000010
+7  02/08/2022  13:41:49.952  27 Trip               1.3       60.0  11000000
+
+=>
